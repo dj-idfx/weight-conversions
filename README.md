@@ -1,10 +1,10 @@
-# Weight conversions in PHP - Spatie package training
+# Weight conversions
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/idfx/weight-conversions.svg?style=flat-square)](https://packagist.org/packages/idfx/weight-conversions)
 [![Tests](https://img.shields.io/github/actions/workflow/status/idfx/weight-conversions/run-tests.yml?branch=main&label=tests&style=flat-square)](https://github.com/idfx/weight-conversions/actions/workflows/run-tests.yml)
 [![Total Downloads](https://img.shields.io/packagist/dt/idfx/weight-conversions.svg?style=flat-square)](https://packagist.org/packages/idfx/weight-conversions)
 
-This is where your description should go. Try and limit it to a paragraph or two. Consider adding a small example.
+Weight conversions in PHP - Spatie package training 
 
 ## Installation
 
@@ -38,7 +38,7 @@ Please review [our security policy](.github/SECURITY.md) on how to report securi
 ## Credits
 
 - [David Carton](https://github.com/dj-idfx)
-- [All Contributors](#)
+- [All Contributors]()
 
 ## License
 
