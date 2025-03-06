@@ -18,9 +18,9 @@
         "php": "^8.3"
     },
     "require-dev": {
-        "pestphp/pest": "^3.0",
-        "laravel/pint": "^1.0",
-        "spatie/ray": "^1.28"
+        "friendsofphp/php-cs-fixer": "^3.70",
+        "pestphp/pest": "^3.7",
+        "spatie/ray": "^1.41"
     },
     "autoload": {
         "psr-4": {
@@ -34,8 +34,8 @@
     },
     "scripts": {
         "test": "vendor/bin/pest",
-            "test-coverage": "vendor/bin/pest --coverage",
-        "format": "vendor/bin/pint"
+        "test-coverage": "vendor/bin/pest --coverage",
+        "format": "vendor/bin/php-cs-fixer fix --allow-risky=yes"
     },
     "config": {
         "sort-packages": true,
