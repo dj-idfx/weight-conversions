@@ -18,7 +18,12 @@ class Weight
 
     public function toPounds(): float
     {
-        return $this->kilograms * 2.2046;
+        return $this->kilograms * 2.20462;
+    }
+
+    public function toOunces(): float
+    {
+        return $this->kilograms * 35.27396;
     }
 
     public function toStones(): float
