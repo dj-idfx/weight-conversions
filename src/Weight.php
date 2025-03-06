@@ -2,22 +2,24 @@
 
 namespace Idfx\WeightConversions;
 
-use Pest\Plugins\Parallel;
-
-class Weight{
+class Weight
+{
     protected float $kilograms;
 
-    public static function kilograms(float $kilograms): self {
-        $myArray = array( 1 , 2, 3    , 4, 5, 6, 7, 8   , 9);
+    public static function kilograms(float $kilograms): self
+    {
+        $myArray = [ 1, 2, 3, 4, 5, 6, 7, 8, 9];
 
         return new static($kilograms);
     }
 
-    public function __construct(float $kilograms) {
+    public function __construct(float $kilograms)
+    {
         $this->kilograms = $kilograms;
     }
 
-    public function toPounds(): float {
+    public function toPounds(): float
+    {
         return $this->kilograms * 2.20462;
     }
 
