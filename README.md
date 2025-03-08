@@ -1,7 +1,7 @@
 # Weight conversions
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/idfx/weight-conversions.svg?style=flat-square)](https://packagist.org/packages/idfx/weight-conversions)
-[![Tests](https://img.shields.io/github/actions/workflow/status/idfx/weight-conversions/run-tests.yml?branch=main&label=tests&style=flat-square)](https://github.com/idfx/weight-conversions/actions/workflows/run-tests.yml)
+[![Tests](https://img.shields.io/github/actions/workflow/status/dj-idfx/weight-conversions/run-tests.yml?branch=main&label=tests&style=flat-square)](https://github.com/idfx/weight-conversions/actions/workflows/run-tests.yml)
 [![Total Downloads](https://img.shields.io/packagist/dt/idfx/weight-conversions.svg?style=flat-square)](https://packagist.org/packages/idfx/weight-conversions)
 
 Weight conversions in PHP - Spatie package training 
@@ -38,7 +38,6 @@ Please review [our security policy](.github/SECURITY.md) on how to report securi
 ## Credits
 
 - [David Carton](https://github.com/dj-idfx)
-- [All Contributors]()
 
 ## License
 
