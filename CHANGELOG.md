@@ -2,6 +2,10 @@
 
 All notable changes to `weight-conversions` will be documented in this file.
 
+## 1.1.3 - 2025-03-08
+
+**Full Changelog**: https://github.com/dj-idfx/weight-conversions/compare/1.1.1...1.1.3
+
 ## 1.1.2 - 2025-03-08
 
 Fixed Changelog
