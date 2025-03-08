@@ -2,6 +2,12 @@
 
 use Idfx\WeightConversions\Weight;
 
+it('can convert kilograms to grams correctly', function () {
+    $grams = Weight::kilograms(1)->toGrams();
+
+    expect($grams)->toEqual(1000);
+});
+
 it('can convert kilograms to pounds correctly', function () {
     $pounds = Weight::kilograms(100)->toPounds();
 
